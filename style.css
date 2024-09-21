@@ -1,0 +1,286 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+
+.cardwrapper {
+  position: absolute;
+  width: 100%;
+}
+
+
+.headerone {
+  background-color: rgb(150,154,157);
+  background: linear-gradient(0deg, rgba(167,167,171,1) 22%, rgba(255,255,255,1) 51%, rgba(115,116,121,1) 92%);
+  height: 45px;
+  width: 720px;
+  border: 1px solid white;
+  left: 40px;
+  top: 40px;
+  position: absolute;
+  z-index: 1;
+  border-radius: 350px 53px 110px 15px;
+    
+}
+
+
+.identationtop {
+  background-color: #247aba;
+  background: linear-gradient(0deg, rgba(167,167,171,1) 22%, rgba(255,255,255,1) 51%, rgba(115,116,121,1) 92%);
+  height: 30px;
+  width: 35px;
+  top: 45px;
+  left: 382px;
+  position: absolute;
+  z-index: 10;
+  border: solid 7px #75a3c6;
+  border-radius: 50%/100px 100px 0px 0;
+  transform: rotate(90deg);
+}
+
+
+.headertwo {
+  background: rgb(183,183,186);
+  background: linear-gradient(90deg, rgba(183,183,186,1) 0%, rgba(249,250,249,1) 50%, rgba(183,183,186,1) 100%);
+  height: 85px;
+  width: 696px;
+  left: 54px;
+  top: 87px;
+  position: absolute;
+  z-index: 10;
+}
+
+
+.special_font {
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: #045eb5;
+  -webkit-text-stroke-width: 0.5px;
+  -webkit-text-stroke-color: white;
+  top: 26px;
+  left:75px; 
+  border-radius: 5px;
+  z-index: 10;
+  position: absolute; 
+}
+
+
+.trainer {
+  font-size: 22px;
+  font-family: "Exo 2";
+  font-style: italic;
+  font-weight: bold;
+  color: #595a5b;
+  left: 560px;
+  top: 6px;
+  z-index: 10;
+  position: absolute; 
+}
+
+
+.title {
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: black;
+  top: 65px;
+  left:70px; 
+  border-radius: 5px;
+  z-index: 10;
+  position: absolute; 
+}
+
+
+.card {
+  position: absolute;
+  top: 25px;
+  left: 25px;
+  width: 744px;
+  height: 1038px;
+  background: rgb(150,154,157);
+  background: radial-gradient(circle, rgba(150,154,157,1) 0%, rgba(219,220,222,1) 50%, rgba(150,154,157,1) 100%);
+  border-radius: 30px;
+}
+
+
+.card-body {
+  position: relative;
+  left: 30px;
+  top: 30px;
+  width: 684px;
+  height: 968px;
+  background-color: white;
+  border-left: 5px dashed #18BEF8;
+  border-right: 5px dashed #18BEF8;
+  border-radius: 10px;
+  background: rgb(214,219,222);
+  background: linear-gradient(135deg, rgba(214,219,222,1) 0%, rgba(192,197,200,1) 100%);
+}
+
+
+.picturebox {
+  border: 4px solid silver;
+  border-radius: 20px;
+  width : 652px;
+  height: 400px;
+  background: rgb(247,249,246);
+  background: radial-gradient(circle, rgba(247,249,246,1) 0%, rgba(173,223,246,1) 71%, rgba(63,134,198,1) 100%);
+  top: 110px;
+  left: 11px;
+  position: absolute;
+  z-index: 20;
+}
+
+
+.pokemon {
+  position: absolute;
+  width: 600px;
+  height: 400px;
+  top: 23px;
+  left: 85px;
+  transform: skew(-30deg, 10deg);
+}
+
+
+.trumpethorn {
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  width: 100px;
+  height: 300px;
+  border-radius: 50%;
+  border: 10px solid #52AEDF;
+  background-color: #3F86C6;
+  z-index: 99;
+}
+
+
+.trumpetneck {
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-top: 75px solid transparent;
+  border-left: 130px solid #3F86C6;
+  border-bottom: 75px solid transparent;
+  top: 125px;
+  left: 140px;
+}
+
+
+.trumpetframe {
+  position: absolute;
+  border: 20px solid #3F86C6;
+  border-radius: 0 10px 50px 40px;
+  height: 70px;
+  width: 150px;
+  top: 185px;
+  left: 240px;
+}
+
+
+.trumpetvalveone {
+  position: absolute;
+  height: 100px;
+  width: 20px;
+  background-color: #3F86C6;
+  border-radius: 10px 10px 20px 20px;
+  top: 160px;
+  left: 285px;
+}
+
+
+.trumpetvalvetwo {
+  position: absolute;
+  height: 100px;
+  width: 20px;
+  background-color: #3F86C6;
+  border-radius: 10px 10px 20px 20px;
+  top: 160px;
+  left: 325px;
+}
+
+
+.trumpetvalvetres {
+  position: absolute;
+  height: 100px;
+  width: 20px;
+  background-color: #3F86C6;
+  border-radius: 10px 10px 20px 20px;
+  top: 160px;
+  left: 365px;
+}
+
+
+.trumpetmouth {
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-top: 20px solid transparent;
+  border-right: 75px solid #3F86C6;
+  border-bottom: 20px solid transparent;
+  border-radius: 0 10px 10px 10px;
+  top: 175px;
+  left: 410px;
+}
+
+
+.cardinfo {
+  position: absolute;
+  border: 2px solid darkgray;
+  border-radius: 20px;
+  bottom: 64px;
+  left: 2px;
+  width: 676px;
+  height: 400px;
+  background-color: #f6f8f9;
+  z-index: 10;
+}
+
+
+.infotext {
+  position: relative;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  top: 120px;
+  margin: 10px;
+  width: 100%;
+  font-size: 20px;
+}
+
+
+.bottominfo {
+  position: absolute;
+  width: 420px;
+  height: 80px;
+  right: 10px;
+  bottom: 50px;
+  z-index: 30;
+  background: rgb(162,219,245);
+  background: rgb(157,216,244);
+  background: linear-gradient(0deg, rgba(157,216,244,1) 0%, rgba(215,232,241,1) 50%, rgba(157,216,244,1) 100%);
+  border: 6px solid #9a989a;
+  border-radius: 90px 40px 90px 40px;
+  padding-left: 20px;
+  padding-right: 10px;
+  padding-top: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
+}
+
+.fine-print {
+  position: absolute;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  top: 975px;
+  left: 145px;
+  margin: 10px;
+  width: 100%;
+  font-size: 15px;
+  z-index:10;
+}
